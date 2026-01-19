@@ -47,4 +47,30 @@ button{
 }
 button:hover{
   transform: scale(1.1);
+
+}
+@media screen and (min-width :250px) and (max-width: 550px){
+  header{
+   grid-template-columns: 1fr 150px;
+  }
+button{
+  padding: 15px;
+  border:none;
+}
+.display-card{
+  gap :20px;
+}
+.title{
+  font-size: 14px;
+  white-space: nowrap;
+  margin-right: 5px;
+}
+.vs{
+  font-size: 12px;
+  width: 150px;
+}
+.player_name{
+  font-size: 12px;
+   white-space: nowrap;
+}
 }
